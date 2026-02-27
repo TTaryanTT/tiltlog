@@ -27,4 +27,4 @@ document.addEventListener("DOMContentLoaded",
         // Load navigation bar dynamically
         loadHTML("assets/pages/navigation-bar.html", "navigation-bar-placeholder");
     }
-)
+);

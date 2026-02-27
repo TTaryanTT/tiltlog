@@ -1,5 +1,6 @@
 header
 {
+    background-color: var(--background);
     height: 80px;
     position: fixed;
     top: 0;
@@ -27,5 +28,6 @@ header .logo
     header
     {
         justify-content: space-between;
+        border-bottom: 1px solid var(--weak-border);
     }
 }

@@ -3,7 +3,7 @@ nav.menu-tabs ul
 {
     list-style: none;
     display: flex;
-    align-content: center;
+    align-items: center;
     gap: 15px;
     padding: 0;
     margin: 0;
