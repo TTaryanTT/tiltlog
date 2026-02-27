@@ -1,0 +1,43 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+}
+.item
+{
+    background-color: var(--item-background);
+}
+.x-axis
+{
+    color: var(--x-axis);
+}
+.y-axis
+{
+    color: var(--y-axis);
+}
+.primary-text
+{
+    color: var(--primary-text);
+}
+.secondary-text
+{
+    color: var(--secondary-text);
+}
+.strong-border
+{
+    border-color: var(--strong-border);
+}
+.weak-border
+{
+    border-color: var(--weak-border);
+}
+.primary-button
+{
+    background-color: var(--primary-button-background);
+    color: var(--primary-button-text);
+}
+.secondary-button
+{
+    background-color: var(--secondary-button-background);
+    color: var(--secondary-button-text);
+}

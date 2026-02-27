@@ -1,0 +1,39 @@
+/* Navigation bar is in header */
+nav.menu-tabs ul
+{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+/* Navigation bar list items */
+nav.menu-tabs ul li
+{
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* Links in navigation menu */
+nav.menu-tabs a
+{
+    text-decoration: none;
+}
+/* Laptops */
+@media (min-width: 1200px)
+{
+    /* Menu button is not seen in laptops */
+    .menu-button
+    {
+        display: none;
+    }
+    /* Navigation bar is in header */
+    nav.menu-tabs ul
+    {
+        flex-direction: row;
+    }
+}

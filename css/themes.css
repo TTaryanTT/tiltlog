@@ -1,0 +1,20 @@
+:root[data-theme="dark"]
+{
+    /* Color for each axes */
+    --x-axis: #00e5ff;
+    --y-axis: #ff4081;
+    /* Background colors */
+    --background: #080c10;
+    --item-background: #0e1419;
+    --primary-button-background: #00e5ff;
+    --secondary-button-background: transparent;
+    /* Text colors */
+    --primary-text: #cde8f5;
+    --secondary-text: #7ab8d4;
+    --primary-button-text: #080c10;
+    --seconday-button-text: #3a5068;
+    /* Border colors */
+    --strong-border: #1c2a38;
+    --weak-border: #3a5068;
+    --secondary-button-border: #1c2a38;
+}
