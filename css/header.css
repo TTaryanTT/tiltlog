@@ -1,6 +1,6 @@
 header
 {
-    background-color: var(--background);
+    background-color: var(--item-background);
     height: 80px;
     position: fixed;
     top: 0;
@@ -8,23 +8,32 @@ header
     right: 0;
     border-top: none;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     z-index: 100;
 }
 header .logo
 {
-    margin-left: 10px;
-    height: 60px;
+    margin: 0px;
+    height: 44px;
 }
 .menu-button
 {
     font-weight: bolder;
-    padding: 10px;
-    margin-left: 10px;
+    font-size: 1.1rem;
+    padding: 10px 14px;
+    margin-right: 10px;
     border-radius: 50%;
     border: none;
     border-color: transparent;
-    background-color: var(--background);
+    background-color: transparent;
     color: var(--primary-text);
+    cursor: pointer;
+}
+/* Menu button - hover state */
+.menu-button:hover
+{
+    background-color: var(--background);
 }
 .status-button
 {
@@ -39,12 +48,24 @@ header .logo
     border-color: var(--weak-border);
     color: var(--muted-text);
 }
+.status-button.active
+{
+    border-color: var(--x-axis);
+    color: var(--x-axis);
+    box-shadow: 0 0 8px rgba(124, 58, 237, 0.25);
+}
 /* Laptops */
 @media (min-width: 1200px)
 {
+    /* Menu button is not seen in laptops */
+    .menu-button
+    {
+        display: none;
+    }
+    /* Header section CSS */
     header
     {
         justify-content: space-between;
-        border-bottom: 1px solid var(--weak-border);
+        padding: 0 40px;
     }
 }
