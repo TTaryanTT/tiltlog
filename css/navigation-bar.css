@@ -12,6 +12,8 @@ nav.menu-tabs ul
 /* Navigation bar list items */
 nav.menu-tabs ul li
 {
+    display: flex;
+    flex-direction: row;
     position: relative;
     padding: 15px;
     margin: 10px;
@@ -23,6 +25,24 @@ nav.menu-tabs a
 {
     text-decoration: none;
 }
+/* Mobile phones */
+@media (min-width: 600px) and (max-width: 989px)
+{
+    /* Navigation bar is not seen */
+    nav
+    {
+        display: none;
+    }
+}
+/* Tablets */
+@media (min-width: 990px) and (max-width: 1199px)
+{
+    /* Navigation bar is not seen */
+    nav
+    {
+        display: none;
+    }
+}
 /* Laptops */
 @media (min-width: 1200px)
 {
@@ -30,10 +50,5 @@ nav.menu-tabs a
     .menu-button
     {
         display: none;
-    }
-    /* Navigation bar is in header */
-    nav.menu-tabs ul
-    {
-        flex-direction: row;
     }
 }
