@@ -21,6 +21,22 @@ header .logo
     padding: 10px;
     border-radius: 50%;
     border: none;
+    border-color: transparent;
+    background-color: var(--background);
+    color: var(--primary-text);
+}
+.status-button
+{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 4px 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.status-button.standby
+{
+    border-color: var(--weak-border);
+    color: var(--muted-text);
 }
 /* Laptops */
 @media (min-width: 1200px)
