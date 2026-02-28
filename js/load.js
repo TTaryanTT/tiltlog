@@ -24,7 +24,5 @@ document.addEventListener("DOMContentLoaded",
     {
         // Load header dynamically
         loadHTML("assets/pages/header.html", "header-placeholder");
-        // Load navigation bar dynamically
-        loadHTML("assets/pages/navigation-bar.html", "navigation-bar-placeholder");
     }
 );
