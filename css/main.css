@@ -42,3 +42,16 @@ body
     background-color: var(--secondary-button-background);
     color: var(--secondary-button-text);
 }
+/* Main section CSS */
+main
+{
+    padding: 20px;
+}
+/* Container styling */
+.container
+{
+    border: 1px solid var(--weak-border);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
