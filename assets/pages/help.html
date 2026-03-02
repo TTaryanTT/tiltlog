@@ -1,0 +1,92 @@
+<!-- Help Section -->
+<div>
+    <!-- Carousel - 1st Slide -->
+    <div class="slide">
+        <h2 class="y-axis"> Getting Started </h2>
+        <div class="primary-text">
+            <p>
+                When you open TiltLog, the app is in standby mode — the sensor is not active yet. Tap the Start button to activate the gyroscope and enter fullscreen mode. On iOS devices (iPhone and iPad), the browser will ask for your permission to access the motion sensor — tap Allow when prompted. On Android devices, the sensor activates automatically with no permission prompt.
+            </p>
+        </div>
+    </div>
+    <!-- 2nd Slide -->
+    <div class="slide">
+        <h2 class="x-axis"> Understanding the Display </h2>
+        <div class="primary-text">
+            <p>
+                TiltLog shows you two pieces of information — a live radar visual and two numerical value displays.
+            </p>
+            <p>
+                The radar shows the orientation of your device as a moving point on a circular grid. The center of the radar represents your origin point — the position your device was in when you tapped Start or Reset. As you tilt and rotate your phone, the point moves away from the center to show how far you've moved from that origin.
+            </p>
+            <p>
+                The numerical values show the same information as exact degree numbers. The Y value shows your left and right rotation (gamma). The X value shows your tilt relative to origin. Both values are signed — a positive number means movement in one direction, a negative number means movement in the opposite direction.
+            </p>
+        </div>
+    </div>
+    <!-- 3rd Slide -->
+    <div class="slide">
+        <h2 class="y-axis"> Setting Your Origin </h2>
+        <div class="primary-text">
+            <p>
+                TiltLog accesses your device's built-in gyroscope sensor through the browser's Device Orientation API. It reads two axes of movement — left/right rotation (Y axis, gamma) and rotational heading (Z axis, alpha) — and displays them as live numerical values and a visual radar. All readings are shown as a delta from your chosen origin point, so you always see relative movement rather than raw absolute values.
+            </p>
+        </div>
+    </div>
+    <!-- 4th Slide -->
+    <div class="slide">
+        <h2 class="x-axis"> Technology </h2>
+        <div class="primary-text">
+            <p>
+                The origin is the reference point everything is measured from. When you tap Start, your current device position is automatically saved as the origin and all values start at zero. If you move to a new position and want to re-zero from there, tap the Reset button. The values will snap back to zero and begin tracking from your new position.
+            </p>
+        </div>
+    </div>
+    <!-- 5th Slide -->
+    <div class="slide">
+        <h2 class="y-axis"> Start & Reset Buttons </h2>
+        <div class="primary-text">
+            <p>
+                The Start button activates the gyroscope sensor, requests any necessary permissions, and enters fullscreen mode. You only need to tap this once per session.
+            </p>
+            <p>
+                The Reset button recaptures your current device orientation as the new origin point. Use this whenever you want to re-zero your readings without reloading the page.
+            </p>
+    </div>
+    <!-- 6th Slide -->
+    <div class="slide">
+        <h2 class="x-axis"> Fullscreen Mode </h2>
+        <div class="primary-text">
+            <p>
+                TiltLog automatically enters fullscreen when you tap Start. This removes the browser's address bar and navigation UI, giving you the most screen space possible for reading values while moving. To exit fullscreen, use your device's back gesture or press the back button.
+            </p>
+        </div>
+    </div>
+    <!-- 7th Slide -->
+    <div class="slide">
+        <h2 class="y-axis"> Using TiltLog as an RC Car Controller </h2>
+        <div class="primary-text">
+            <p>
+                Hold your phone in a natural, comfortable position. Tap Start and keep the phone still for a moment so the origin is captured cleanly. Then tilt forward to accelerate, tilt back to brake or reverse, and rotate left or right to steer. The RC car reads your phone's orientation data in real time and responds to the direction and intensity of your tilt.
+            </p>
+        </div>
+    </div>
+    <!-- 8th Slide -->
+    <div class="slide">
+        <h2 class="x-axis"> Troubleshooting </h2>
+        <div class="primary-text">
+            <p>
+                If the values are not moving, make sure you tapped Start and granted sensor permission if prompted. If the values seem off or drifted, tap Reset to re-zero from your current position. If the radar is not visible, try rotating your phone to portrait orientation — TiltLog is designed for vertical mobile screens.
+            </p>
+        </div>
+    </div>
+    <!-- 9th Slide -->
+    <div class="slide">
+        <h2 class="y-axis"> Browser Compatibility </h2>
+        <div class="primary-text">
+            <p>
+                TiltLog works best in Chrome on Android and Safari on iOS. The Device Orientation API is not available on all desktop browsers, so mobile use is strongly recommended.
+            </p>
+        </div>
+    </div>
+</div>

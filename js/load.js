@@ -24,13 +24,16 @@ document.addEventListener("DOMContentLoaded",
     {
         // Load header dynamically
         loadHTML("assets/pages/header.html", "header-placeholder");
-        // Load about us dynamically
-        loadHTML("assets/pages/aboutus.html", "about-us-placeholder");
-        // Load services dynamically
-        loadHTML("assets/pages/services.html", "services-placeholder");
-        // Load help dynamically
+        // Load navigation dynamically into both left sidebar and footer
+        loadHTML("assets/pages/nav.html", "left-sidebar-placeholder");
+        loadHTML("assets/pages/nav.html", "footer-placeholder");
+        // Load about us content dynamically
+        loadHTML("assets/pages/about-us.html", "about-us-placeholder");
+        // Load help content dynamically
         loadHTML("assets/pages/help.html", "help-placeholder");
-        // Load footer dynamically
-        loadHTML("assets/pages/footer.html", "footer-placeholder");
+        // Load services content dynamically
+        loadHTML("assets/pages/services.html", "services-placeholder");
+        // Load contact us content dynamically
+        loadHTML("assets/pages/contact-us.html", "contact-us-placeholder");
     }
 );
